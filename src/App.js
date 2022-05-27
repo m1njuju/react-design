@@ -12,6 +12,7 @@ import {
 // fontAwesome에 직접 접근해서 값 들고오기
 import { faCamera } from "@fortawesome/free-solid-svg-icons";
 import TestComp from "./components/TestComp";
+import StyleComp from "./components/StyleComp";
 
 function App() {
   const gridStyle = {
@@ -55,6 +56,8 @@ function App() {
             >
               버튼을 눌러주세요
             </TestComp>
+            <StyleComp primary />
+            <StyleComp />
           </Col>
         </Row>
       </Container>
